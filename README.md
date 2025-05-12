@@ -1,1 +1,1 @@
-# CurricularizacaoACAPRA-Grupo69
+Repositório criado para semana da curricularização
