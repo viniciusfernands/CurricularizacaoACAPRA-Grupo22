@@ -87,3 +87,12 @@ body {
     margin: 0.2em 0;
     font-size: 1.1em;
 }
+
+.telefone {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    border: 0.1em solid rgba(255, 255, 255, 0.5);
+    padding: 0.1em 1em;
+    display: inline-block;
+    margin: 0.5em 0;
+}
