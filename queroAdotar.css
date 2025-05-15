@@ -19,7 +19,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
-  padding: 0 30px 60px;
+  padding: 30px 30px 60px;
 }
 
 .card {
@@ -52,4 +52,9 @@
 .card .info h2 {
   margin-bottom: 10px;
   color: #0077cc;
+}   
+
+#felv {
+    color: red;
+    font-weight: bold;
 }
