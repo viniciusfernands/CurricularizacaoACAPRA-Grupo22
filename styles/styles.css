@@ -88,6 +88,20 @@ body {
     font-size: 1.1em;
 }
 
+.sobre {
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre a {
+    text-decoration: none;
+    color: #FDF7EB;
+}
+
+.sobre a:hover {
+    text-decoration: underline;
+}
+
 .telefone {
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 25px;
@@ -95,4 +109,20 @@ body {
     padding: 0.1em 1em;
     display: inline-block;
     margin: 0.5em 0;
+}
+
+.redes-icones {
+    display: flex;
+    gap: 2em;
+    margin-top: 1.5em;
+}
+
+.redes-icones a {
+    color: #FDF7EB;
+    font-size: 1.5em;
+    transition: transform 0.2s;
+}
+
+.redes-icones a:hover {
+    transform: scale(1.15);
 }
