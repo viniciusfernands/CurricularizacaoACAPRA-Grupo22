@@ -1,0 +1,55 @@
+.voltar {
+  display: inline-block;
+  margin: 20px 30px;
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: bold;
+}
+
+/* Título */
+#titulo-pets {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+/* Galeria de Pets */
+.grid-pets {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 0 30px 60px;
+}
+
+.card {
+  background-color: #f8f8f8;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  border: 2px solid;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit:cover; 
+  margin-bottom:-5px;
+}
+
+.card .info {
+    background-color: #333;
+  padding: 15px;
+  color: aliceblue;
+  margin-top: 10;
+}
+
+.card .info h2 {
+  margin-bottom: 10px;
+  color: #0077cc;
+}
