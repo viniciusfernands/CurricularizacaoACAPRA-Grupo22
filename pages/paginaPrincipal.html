@@ -4,17 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Inicial - ACAPRA</title>
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <!-- Fonte usada no Figma: https://fonts.google.com/specimen/Just+Me+Again+Down+Here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Cabeçalho da pagina -->
-    <header>
-        <img src="" alt="Logo ACAPRA">
-        <nav>
-            <a>Quem somos</a>
-            <a>Quero adotar</a>
-            <a>Quero doar</a>
-            <a>Noticias</a>
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="../assets/images/Logo ACAPRA 1.svg" alt="Logo ACAPRA">
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="../pages/queroAdotar.html">Quero adotar</a></li>
+                <li><a href="#">Quero doar</a></li>
+                <li><a href="#">Notícias</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -71,17 +79,17 @@
      </main>
 
     <!-- Rodapé da pagina -->
-    <footer>
-        <section>
+    <footer class="rodape">
+        <section class="rodape-container">
             <!-- Saiba Sobre -->
-            <article>
+            <article class="rodape-article">
                 <h3>Saiba Sobre</h3>
                 <p>Maus-tratos</p>
                 <p>Denuncias</p>
             </article>
 
             <!-- Contatos -->
-             <article>
+             <article class="rodape-article">
                 <h3>Contatos</h3>
                 <p>Acapra@gmail.com</p>
                 <p>Telefone de contato</p>
@@ -89,7 +97,8 @@
              </article>
 
              <!-- Redes Sociais -->
-              <article>
+              <article class="rodape-article">
+                <h3>Redes Sociais</h3>
                 <a><p>Facebook</p></a>
                 <a><p>Instagram</p></a>
                 <a><p>Twitter / X</p></a>
