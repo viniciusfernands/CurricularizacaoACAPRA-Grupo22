@@ -87,3 +87,130 @@ body {
     margin: 0.2em 0;
     font-size: 1.1em;
 }
+
+body {
+  margin: 0;
+  font-family: 'Just Me Again Down Here', "Caveat" cursive;
+  background-color: #faf3e7;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  border: 2px solid;
+  background-color: #4f4685;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.info {
+  flex: 1;
+  padding: 60px 40px;
+  color: white;
+}
+
+.info h1 {
+  font-size: 3em;
+  line-height: 1.2;
+}
+
+.info h1 span {
+  color: #72bdd1;
+}
+
+.info p {
+  font-size: 1.4em;
+  margin: 20px 0;
+}
+
+.telefone {
+  background-color: #b6afc8;
+  padding: 10px 15px;
+  border-radius: 10px;
+  width: fit-content;
+  font-size: 1.2em;
+}
+
+.social {
+  margin-top: 50px;
+  font-size: 1.8em;
+}
+
+.social i {
+  margin-right: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.formulario {
+  flex: 1;
+  background-color: #f8efe2;
+  padding: 40px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.interesse {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.botoes {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.botoes button {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #b6afc8;
+  background: none;
+  color: #4f4685;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.botoes .ativo {
+  background-color: #a259f7;
+  color: white;
+  border: none;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  border: none;
+  border-bottom: 2px solid #a259f7;
+  background-color: transparent;
+  font-size: 1.3em;
+  font-family: 'Just Me Again Down Here', cursive;
+  color: #444;
+}
+
+form textarea {
+  resize: none;
+  height: 80px;
+}
+
+.enviar {
+  background-color: #a259f7;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.3em;
+  cursor: pointer;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
