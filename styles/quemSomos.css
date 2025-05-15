@@ -14,5 +14,27 @@ h1 {
 
 .container p {
     text-align: center;
-    align-items: center;
+    padding-right: 30%;
+    padding-left: 30%;
+}
+
+.botao-voltar-container {
+    background-color: #78A8C8;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+
+.voltar-button {
+    color: #ffffff;
+    text-decoration: none;
+    background: none;
+    padding: 0;
+    border: none;
+}
+
+.botao-voltar-container:hover {
+    color: rgba(53, 115, 156, 1);
 }
