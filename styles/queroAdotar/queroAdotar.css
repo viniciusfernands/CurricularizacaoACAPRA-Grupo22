@@ -1,21 +1,27 @@
+main {
+  padding-top: 110px;
+  border: 1px solid;
+}
+
 .voltar {
-  justify-content: first baseline;
-  margin: 20px 30px;
+  top: 160px;
   text-decoration: none;
-  border: solid 2px #000000;
-  border-radius: 8px;
-  padding: 10px;
-  color: aliceblue;
+  border: none;
+  border-radius: 0px 8px 8px 0px;
+  background-color: #78A8C8;
+  color: #FDF7EB;
+  padding: 0.2em 1.8em;
   font-weight: bold;
+  font-size: 1.2em;
   position: fixed;
   z-index: 9999;
-
+  transition: background-color 0.5s ease;
 }
 
 .voltar:hover {
-  background-color: #f8f8f8;
-  color: #0077cc;
-  transition: background-color 0.3s ease;
+  background-color: #FDF7EB;
+  color: #78A8C8;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
 }
 
 /* Título */
@@ -24,7 +30,6 @@
   font-size: 2em;
   margin-top: 35px;
   position: relative;
-
 }
 
 /* Galeria de Pets */
@@ -71,9 +76,4 @@
 #felv {
   color: red;
   font-weight: bold;
-}
-
-main {
-  padding-top: 110px;
-  border: 1px solid;
 }
