@@ -10,6 +10,6 @@ Registrar e organizar as contribuições do grupo durante as atividades proposta
 
 **Integrantes:**
 - Vinicius Fernandes  
-- Gabriel Henrique Zingelersky  
+- Gabriel Henrique Zingelerski 
 - Vinicius Olinger Baptista
-- Carlos Eduardo Muinz Manes
+- Carlos Eduardo Muniz Manes
