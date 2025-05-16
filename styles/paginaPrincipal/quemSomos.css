@@ -1,6 +1,5 @@
-main section {
+.section {
     min-height: 100vh;
-    /* border: 1px #000 solid; */
     padding: 110px 2em 2em;
     display: flex;
     flex-direction: column;
@@ -8,18 +7,53 @@ main section {
     align-items: center;
     color: #000;
     text-align: center;
+    /* Ainda em construção */
+    /* background-image: url(../../assets/images/Patas\ Doguinhos.svg);
+    background-repeat: repeat;
+    background-position: top left;
+    background-size: auto;
+    min-height: 100vh;
+    width: 100%; */
 }
 
-main section:nth-of-type(1) {
+.quem-somos {
     background-color: #555086;
 }
 
-main section:nth-of-type(3) {
+.quem-somos article {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    gap: 4em;
+    align-items: center;
+}
+
+.imagem{
+    width: 400px;
+}
+
+.container-quem-somos h2 {
+    font-size: 3em;
+    padding: 0.2em;
+}
+
+.container-quem-somos p {
+    font-size: 1.5em;
+    padding: 2em 0.5em;
+}
+
+.container-quem-somos button {
+    display: inline-block;
+    padding: 0.75em 1.5em;
     background-color: #78A8C8;
+    color: #FDF7EB;
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
 }
 
-/* Ainda em construção */
-/* main section:nth-of-type(5) {
-    background-color: #555086;
-} */
-
+.container-quem-somos button:hover {
+    background-color: #3c8ec4;
+}
