@@ -1,0 +1,112 @@
+.contato {
+    font-family: 'Just Me Again Down Here', "Caveat" cursive;
+    background-color: #FDF7EB;
+    color: #fff;
+    padding: 4rem 2rem;
+}
+
+.contato-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #5b4b8a;
+    border-radius: 20px;
+    max-width: 1100px;
+    margin: 4rem auto;
+    padding: 2rem;
+}
+
+.contato-info {
+    flex: 1;
+    min-width: 280px;
+}
+
+.contato-info h2 {
+    font-size: 3rem;
+    color: white;
+}
+
+.contato-info h2 span {
+    color: #83c1e9;
+}
+
+.contato-info p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.contato-redes a {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.contato-form {
+  width: 450px;
+  background-color: #f7f1e8;
+  padding: 2rem;
+  border-radius: 20px;
+  flex-shrink: 0;
+}
+
+.contato-form .interesse {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.botoes-interesse {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.botoes-interesse button {
+    padding: 0.5rem 1rem;
+    border: 2px solid #b39fbe;
+    background: transparent;
+    font-family: inherit;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botoes-interesse button.ativo {
+    background-color: #9f4bff;
+    color: black;
+    border: none;
+}
+
+.contato-form label {
+    display: block;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #9f4bff;
+}
+
+.contato-form input,
+.contato-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 0.3rem;
+    border: none;
+    border-bottom: 2px solid #b39fbe;
+    background: transparent;
+    font-size: 1rem;
+    font-family: inherit;
+    resize: none;
+}
+
+.botao-enviar {
+    margin-top: 1.5rem;
+    background-color: #9f4bff;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}

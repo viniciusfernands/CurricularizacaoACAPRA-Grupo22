@@ -7,6 +7,7 @@
     <title>Pagina Inicial - ACAPRA</title>
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../styles/paginaPrincipal/quemSomos.css">
+    <link rel="stylesheet" href="../contatos.css">
     <!-- Fonte usada no Figma: https://fonts.google.com/specimen/Just+Me+Again+Down+Here -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -82,6 +83,38 @@
             <article>
                 <p>Noticia 4</p>
             </article>
+        </section>
+        <!-- acesso a entre em contato -->
+        <section class="contato">
+            <div class="contato-container">
+                <div class="contato-info">
+                    <h2>Entre em <span>contato</span><br>conosco</h2>
+                    <p><i class="fa-solid fa-envelope"></i> Acapra@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +55 XX XXXXX-XXX</p>
+                    <p><i class="fa-solid fa-map-marker-alt"></i> Endereço principal ACAPRA</p>
+                    <div class="contato-redes">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contato-form">
+                    <p class="interesse">Estou interessado em ...</p>
+                    <div class="botoes-interesse">
+                        <button type="button" class="ativo">Doação</button>
+                        <button type="button">Lar Temporario</button>
+                        <button type="button">Outros Serviços</button>
+                    </div>
+                    <label for="nome">Seu nome</label>
+                    <input type="text" id="nome" name="nome">
+                    <label for="email">Seu Email</label>
+                    <input type="email" id="email" name="email">
+                    <label for="mensagem">Deixe seu comentário</label>
+                    <textarea id="mensagem" name="mensagem"></textarea>
+                    <button type="submit" class="botao-enviar"><i class="fa-regular fa-paper-plane"></i> Envie sua
+                        mensagem</button>
+                </form>
+            </div>
         </section>
     </main>
 
