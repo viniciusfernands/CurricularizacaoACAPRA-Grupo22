@@ -1,17 +1,30 @@
 .voltar {
-  display: inline-block;
+  justify-content: first baseline;
   margin: 20px 30px;
   text-decoration: none;
-  color: #0077cc;
+  border: solid 2px #000000;
+  border-radius: 8px;
+  padding: 10px;
+  color: aliceblue;
   font-weight: bold;
+  position: fixed;
+  z-index: 9999;
+
+}
+
+.voltar:hover {
+  background-color: #f8f8f8;
+  color: #0077cc;
+  transition: background-color 0.3s ease;
 }
 
 /* Título */
 #titulo-pets {
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 30px;
   font-size: 2em;
+  margin-top: 35px;
+  position: relative;
+
 }
 
 /* Galeria de Pets */
@@ -20,6 +33,7 @@
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
   padding: 30px 30px 60px;
+  font-family: "Caveat", cursive;
 }
 
 .card {
@@ -38,12 +52,12 @@
 .card img {
   width: 100%;
   height: 250px;
-  object-fit:cover; 
-  margin-bottom:-5px;
+  object-fit: cover;
+  margin-bottom: -5px;
 }
 
 .card .info {
-    background-color: #333;
+  background-color: #333;
   padding: 15px;
   color: aliceblue;
   margin-top: 10;
@@ -52,9 +66,14 @@
 .card .info h2 {
   margin-bottom: 10px;
   color: #0077cc;
-}   
+}
 
 #felv {
-    color: red;
-    font-weight: bold;
+  color: red;
+  font-weight: bold;
+}
+
+main {
+  padding-top: 110px;
+  border: 1px solid;
 }
