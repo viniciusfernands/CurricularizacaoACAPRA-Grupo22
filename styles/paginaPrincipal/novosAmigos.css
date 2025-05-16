@@ -1,0 +1,23 @@
+.novos-amigos {
+    background-color: #78A8C8;
+}
+
+.novos-amigos h2 {
+    font-size: 3em;
+}
+
+.novos-amigos button {
+    padding: 0.2em 1em;
+    font-size: 2em;
+    font-family: "Just Me Again Down Here", "Caveat", cursive;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    background-color: #555086;
+    transition: background-color 0.3s ease;
+}
+
+.novos-amigos button:hover {
+    background-color: #FDF7EB;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
