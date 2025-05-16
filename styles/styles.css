@@ -7,7 +7,12 @@
 body {
     height: 100%;
     scroll-behavior: smooth;
+<<<<<<< HEAD
     font-family: "Just Me Again Down Here", "Caveat", "cursive";
+=======
+    font-family: "Just Me Again Down Here", "Caveat", cursive;
+    background-color: #FDF7EB;
+>>>>>>> cb13fda11aabfb9c68719515e9c4e5cec70a8ae1
 }
 
 /* Cabeçalho da página */
@@ -86,4 +91,43 @@ body {
 .rodape-article p {
     margin: 0.2em 0;
     font-size: 1.1em;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre a {
+    text-decoration: none;
+    color: #FDF7EB;
+}
+
+.sobre a:hover {
+    text-decoration: underline;
+}
+
+.telefone {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    border: 0.1em solid rgba(255, 255, 255, 0.5);
+    padding: 0.1em 1em;
+    display: inline-block;
+    margin: 0.5em 0;
+}
+
+.redes-icones {
+    display: flex;
+    gap: 2em;
+    margin-top: 1.5em;
+}
+
+.redes-icones a {
+    color: #FDF7EB;
+    font-size: 1.5em;
+    transition: transform 0.2s;
+}
+
+.redes-icones a:hover {
+    transform: scale(1.15);
 }

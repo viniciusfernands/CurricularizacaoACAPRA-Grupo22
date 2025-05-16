@@ -5,92 +5,174 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quero Adotar - ACAPRA</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/queroAdotar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!-- Cabeçalho da pagina -->
-    <header>
-        <img src="" alt="Logo ACAPRA">
-        <nav>
-            <a>Quem somos</a>
-            <a>Quero adotar</a>
-            <a>Quero doar</a>
-            <a>Noticias</a>
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="../assets/images/Logo ACAPRA 1.svg" alt="Logo ACAPRA">
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="../pages/queroAdotar.html">Quero adotar</a></li>
+                <li><a href="#">Quero doar</a></li>
+                <li><a href="#">Notícias</a></li>
+            </ul>
         </nav>
     </header>
 
     <!-- Botão de Voltar -->
-    <a href="paginaPrincipal.html">Voltar</a>
-
+    <a class="voltar" href="../pages/paginaPrincipal.html">Voltar</a>
 
     <!-- Animais Para Adoção -->
     <main>
-        <h1>Pets Disponiveis Para Adoção</h1>
-        <section>
-            <!-- cachorro:branca  -->
-            <img src="../assets/images/cachorros/foto-branca.jpeg" alt="foto-branca">
-            <p>branca femea 2-anos castrada Vacinada Porte-G</p>
-            <br>
 
-            <!-- Cachorro: Cleo -->
-            <img src="" alt="foto-cleo">
-            <p>Cleo femea 7-anos Castrada Vacinada Porte-GG </p>
-            <br>
+        <h1 id="titulo-pets">Pets Disponíveis para Adoção</h1>
+        <section class="grid-pets">
+            <!-- Exemplo repetido para cada pet -->
+            <div class="card">
+                <img src="../assets/images/cachorros/foto-branca.jpeg" alt="Branca" />
+                <div class="info">
+                    <h2>Branca</h2>
+                    <p>Femea</p>
+                    <p>Idade: 2 anos</p>
+                    <p>Porte: Grande</p>
+                    <p>Castrada e Vacinada</p>
+                    <p>Carinhosa e Brincalhona</p>
+                </div>
+            </div>
 
-            <!-- Cachorro: Gloria -->
-            <img src="" alt="foto-gloria ">
-            <p>Gloria Femea 10-Anos Castrada Vacinada Porte GG</p>
-            <br>
-            <!-- Gato: Bartô -->
-            <img src="" alt="foto-barto">
-            <p>Bartô Macho 3-Meses Não-Castrado Vacinado </p>
-            <br>
+            <div class="card">
+                <img src="../assets/images/cachorros/foto-cleo.jpeg" alt="Cleo" />
+                <div class="info">
+                    <h2>Cleo</h2>
+                    <p>Fêmea</p>
+                    <p>Idade: 7 anos</p>
+                    <p>Porte: Grande</p>
+                    <p>Castrada e Vacinada</p>
+                    <p>Dócil e Ativa </p>
+                </div>
+            </div>
 
-            <!-- Gato: Difusor -->
-            <img src="" alt="foto-difusor">
-            <p>Difusor Macho 6-Meses Castrado Vacinado  </p>
-            <br>
+            <div class="card">
+                <img src="../assets/images/cachorros/foto-gloria.jpeg" alt="Gloria" />
+                <div class="info">
+                    <h2>Gloria</h2>
+                    <p>Fêmea</p>
+                    <p>Idade: 10 anos</p>
+                    <p>Porte: Grande</p>
+                    <p>Castrada e Vacinada</p>
+                    <p>Dócil e Ativa</p>
+                </div>
+            </div>
 
-            <!-- Cachorro: Luma -->
-            <img src="" alt="foto-luma">
-            <P>Luma Femea 3-Anos Castrada Vacinada Porte-G</P>
-            <br>
+            <div class="card">
+                <img src="../assets/images/catos/foto-bartô.jpeg" alt="Bartô" />
+                <div class="info">
+                    <h2>Bartô</h2>
+                    <p>Macho</p>
+                    <p>Idade: 3 meses</p>
+                    <p>Não castrado, Vacinado</p>
+                    <p>Negativo FIV e FELV</p>
+                    <p>Amoroso e Ativo</p>
+                </div>
+            </div>
 
-            <!-- Gato: Luzia -->
-            <img src="" alt="foto-luzia">
-            <p>Luzia Femea 2-Anos Castrada Vacinada FELV+!!</p>
-            <br>
+            <div class="card">
+                <img src="../assets/images/catos/foto-difusor.jpeg" alt="Difusor" />
+                <div class="info">
+                    <h2>Difusor</h2>
+                    <p>Macho</p>
+                    <p>Idade: 6 Meses</p>
+                    <p>castrado e Vacinado</p>
+                    <p>Negativo FIV e FELV</p>
+                    <p>Sociável e Amoroso</p>
+                </div>
 
-            <!-- Cachorro: Mavie -->
-            <img src="" alt="foto-mavie">
-            <p>Mavie Femea 1-Ano Castrada Vacinada Porte-G</p>
-            <br>
+            </div>
+            <div class="card">
+                <img src="../assets/images/cachorros/foto-luma.jpeg" alt="Luma" />
+                <div class="info">
+                    <h2>Luma</h2>
+                    <p>fêmea</p>
+                    <p>Idade: 3 anos</p>
+                    <p>Porte: Grande</p>
+                    <p>Castrada e Vacinada</p>
+                    <p>Amorosa e Calma</p>
+                </div>
 
-            <!-- Cachorro: Maia -->
-            <img src="" alt="foto-maia">
-            <p>Maia Femea 1-Ano Castrada Vacinada Porte-G</p>       
-            <br>
-            
-            <!-- Gato: Mimi -->
-            <img src="" alt="foto-mimi">
-            <p>Mimi Femea 1-Ano Castrada Vacinada </p>
-            <br>
+            </div>
+            <div class="card">
+                <img src="../assets/images/catos/foto-luzia.jpeg" alt="Luzia" />
+                <div class="info">
+                    <h2>Luzia</h2>
+                    <p>Fêmea</p>
+                    <p>Idade: 2 anos</p>
+                    <p>Castrada e Vacinada</p>
+                    <p id="felv">POSITIVA FELV!!!</p>
+                    <p>Personalidade: Calma e dócil</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="../assets/images/cachorros/foto-mavie.jpeg" alt="Mavie" />
+                <div class="info">
+                    <h2>Mavie</h2>
+                    <p>Fêmea</p>
+                    <p>Idade: 1 ano</p>
+                    <p>Porte: Grande</p>
+                    <p>Castrada e Vacinada</p>
+                    <p>Carinhosa e Protetora</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="../assets/images/cachorros/foto-maia.jpeg" alt="Maia  " />
+                <div class="info">
+                    <h2>Maia</h2>
+                    <p>Fêmea</p>
+                    <p>Idade: 1 ano</p>
+                    <p>Porte: Grande</p>
+                    <p>Castrada e Vacinada</p>
+                    <p>Carinhosa e Potetora</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="../assets/images/catos/foto-mimi.jpeg" alt="mimi" />
+                <div class="info">
+                    <h2>Mimi</h2>
+                    <p>Fêmea</p>
+                    <p>Idade: 1 anos</p>
+                    <p>Castrada e Vacinada</p>
+                    <p>Negativa FIV e FELV</p>
+                    <p>Amorosa e Carente</p>
+                </div>
+            </div>
+
         </section>
+
     </main>
 
-
     <!-- Rodapé da pagina -->
-    <footer>
-        <section>
+    <footer class="rodape">
+        <section class="rodape-container">
             <!-- Saiba Sobre -->
-            <article>
+            <article class="rodape-article">
                 <h3>Saiba Sobre</h3>
                 <p>Maus-tratos</p>
                 <p>Denuncias</p>
             </article>
 
             <!-- Contatos -->
-            <article>
+            <article class="rodape-article">
                 <h3>Contatos</h3>
                 <p>Acapra@gmail.com</p>
                 <p>Telefone de contato</p>
@@ -98,7 +180,8 @@
             </article>
 
             <!-- Redes Sociais -->
-            <article>
+            <article class="rodape-article">
+                <h3>Redes Sociais</h3>
                 <a>
                     <p>Facebook</p>
                 </a>
