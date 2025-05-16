@@ -4,12 +4,16 @@
     box-sizing: border-box;
 }
 
+h1 {
+  font-size: 70px;
+}
+
 
 .texto-container p {
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
-    padding-right: 30%;
-    padding-left: 30%;
+    padding-right: 25%;
+    padding-left: 25%;
     padding-bottom: 5%;
 }
 
@@ -36,3 +40,4 @@
     padding-top: 140px;
      text-align: center;
 }
+
