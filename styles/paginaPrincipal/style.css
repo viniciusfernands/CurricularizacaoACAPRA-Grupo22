@@ -1,0 +1,14 @@
+/* Css referente a parte de contatos */
+@import url(./contatos.css);
+
+/* Css parte informações */
+@import url(./informacoes.css);
+
+/* Css novos amigos */
+@import url(./novosAmigos.css);
+
+/* Css quem somos */
+@import url(./quemSomos.css);
+
+/* Css ultimas noticias */
+@import url(./ultimasNoticias.css);
