@@ -10,11 +10,18 @@
     flex-wrap: wrap;
 }
 
-.card-noticia {
+.card {
     border-radius: 25px;
-    padding: 3em 6em;
+    padding: 3em 3em;
     margin: 0.5em;
     font-size: 1.5em;
     background-color: #555086;
     color: #FDF7EB;
+}
+
+#img-oliver{
+    border-radius: 25px;
+    margin: 0.5em 0 0.5em 0;
+    border: 2px solid #000000;
+    height: 190px;
 }
