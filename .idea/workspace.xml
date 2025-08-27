@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fa6109f2-3227-4502-be13-1f68da9df1cb" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;viniciusfernands&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/viniciusfernands/CurricularizacaoACAPRA-Grupo69.git&quot;,
+    &quot;accountId&quot;: &quot;2aec2cfd-049d-47aa-8a5f-a760dd891d0e&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="31qGGfqOzK7hdLceZE1BfZLngGY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/vinic/Desktop/CurricularizacaoACAPRA-Grupo69",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vinic\Desktop\CurricularizacaoACAPRA-Grupo69\styles\paginaPrincipal" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-WS-252.23892.411" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa6109f2-3227-4502-be13-1f68da9df1cb" name="Changes" comment="" />
+      <created>1756244094473</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756244094473</updated>
+      <workItem from="1756244095718" duration="17000" />
+      <workItem from="1756244121002" duration="613000" />
+      <workItem from="1756244756609" duration="519000" />
+      <workItem from="1756245287375" duration="70000" />
+      <workItem from="1756245365718" duration="315000" />
+      <workItem from="1756245690429" duration="239000" />
+      <workItem from="1756245938881" duration="1204000" />
+      <workItem from="1756248257624" duration="1261000" />
+      <workItem from="1756252647057" duration="245000" />
+      <workItem from="1756252901533" duration="16000" />
+      <workItem from="1756252925441" duration="54000" />
+      <workItem from="1756252987997" duration="44000" />
+      <workItem from="1756253299742" duration="141000" />
+      <workItem from="1756332234490" duration="2641000" />
+      <workItem from="1756335498697" duration="276000" />
+    </task>
+    <task id="LOCAL-00001" summary="Refatora parte dos arquivos css para melhor vizualização e organização do código.">
+      <option name="closed" value="true" />
+      <created>1756333616086</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1756333616086</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adequa todos os css das paginas.">
+      <option name="closed" value="true" />
+      <created>1756334221709</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1756334221709</updated>
+    </task>
+    <task id="LOCAL-00003" summary="renomeia para adequar ao restante do projeto">
+      <option name="closed" value="true" />
+      <created>1756334564946</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1756334564946</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Refatora parte dos arquivos css para melhor vizualização e organização do código." />
+    <MESSAGE value="Adequa todos os css das paginas." />
+    <MESSAGE value="renomeia para adequar ao restante do projeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="renomeia para adequar ao restante do projeto" />
+  </component>
+</project>
