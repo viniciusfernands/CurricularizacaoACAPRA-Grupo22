@@ -5,21 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Inicial - ACAPRA</title>
-    <link rel="stylesheet" href="../styles/styles.css">
-    <link rel="stylesheet" href="../styles/paginaPrincipal/quemSomos.css">
-    <link rel="stylesheet" href="../styles/paginaPrincipal/contatos.css">
-    <link rel="stylesheet" href="../styles/paginaPrincipal/informacoes.css">
-    <link rel="stylesheet" href="../styles/paginaPrincipal/novosAmigos.css">
-    <link rel="stylesheet" href="../styles/paginaPrincipal/ultimasNoticias.css">
-    <!-- Fonte usada no Figma: https://fonts.google.com/specimen/Just+Me+Again+Down+Here -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&display=swap" rel="stylesheet">
-    <!-- Icones: https://fontawesome.com/start -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/paginaPrincipal/style.css">
 </head>
 
 <body>
+  
     <!-- Cabeçalho da pagina -->
     <header class="cabecalho">
         <div class="logo">
@@ -31,7 +22,7 @@
             <ul>
                 <li><a href="../pages/quemSomos.html">Quem somos</a></li>
                 <li><a href="../pages/queroAdotar.html">Quero adotar</a></li>
-                <li><a href="#">Quero doar</a></li>
+                <li><a href="queroDoar.html">Quero doar</a></li>
                 <li><a href="#ultimas-noticias">Notícias</a></li>
             </ul>
         </nav>
@@ -105,18 +96,29 @@
         <section class="section noticias" id="ultimas-noticias">
             <h2>Ultimas Noticias</h2>
             <div class="cards-noticias">
-                <article class="card-noticia">
-                    <p>Noticia 1</p>
-                </article>
-                <article class="card-noticia">
-                    <p>Noticia 2</p>
-                </article>
-                <article class="card-noticia">
-                    <p>Noticia 3</p>
-                </article>
-                <article class="card-noticia">
-                    <p>Noticia 4</p>
-                </article>
+                <div class="card">
+                    <article>
+                        <h3>Notícia recente!</h3>
+                        <img id="img-oliver" src="../assets/images/cachorros/foto-oliver.png" alt="foto-oliver">
+                        <p> Cachorro Oliver é resgatado após maus-tratos de
+                            seu antigo dono.</p>
+                    </article>
+                </div>
+                <div class="card">
+                    <article>
+                        <p>Noticia 2</p>
+                    </article>
+                </div>
+                <div class="card">
+                    <article>
+                        <p>Noticia 3</p>
+                    </article>
+                </div>
+                <div class="card">
+                    <article>
+                        <p>Noticia 4</p>
+                    </article>
+                </div>
             </div>
         </section>
         <!-- acesso a entre em contato -->
@@ -193,6 +195,49 @@
             </article>
         </section>
     </footer>
+<script>
+    const carrossel = document.querySelector(".carrossel");
+    const imagens = document.querySelectorAll(".carrossel .imagem");
+    const prevBtn = document.querySelector(".prev-btn");
+    const nextBtn = document.querySelector(".next-btn");
+
+    let currentIndex = 0;
+    const itemsPerView = 3;
+    const totalItems = imagens.length;
+    const itemWidth = 270;
+
+    function updateSlide() {
+        const offset = -currentIndex * itemWidth;
+        carrossel.style.transform = `translateX(${offset}px)`;
+
+        imagens.forEach(img => img.classList.remove('ativo'));
+
+        const activeIndex = currentIndex + Math.floor(itemsPerView / 2);
+        if (imagens[activeIndex]) {
+            imagens[activeIndex].classList.add('ativo');
+        }
+    }
+
+    nextBtn.addEventListener("click", () => {
+        if (currentIndex < totalItems - itemsPerView) {
+            currentIndex++;
+        } else {
+            currentIndex = 0; 
+        }
+        updateSlide();
+    });
+
+    prevBtn.addEventListener("click", () => {
+        if (currentIndex > 0) {
+            currentIndex--;
+        } else {
+            currentIndex = totalItems - itemsPerView; 
+        }
+        updateSlide();
+    });
+
+    updateSlide();
+</script>
 </body>
 
 </html>
