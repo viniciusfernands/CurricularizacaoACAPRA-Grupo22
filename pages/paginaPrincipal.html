@@ -5,22 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Inicial - ACAPRA</title>
-    <link rel="stylesheet" href="../styles/styles.css">
-    <link rel="stylesheet" href="../styles/paginaPrincipal/quemSomos.css">
-    <link rel="stylesheet" href="../contatos.css">
-    <!-- Fonte usada no Figma: https://fonts.google.com/specimen/Just+Me+Again+Down+Here -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&display=swap" rel="stylesheet">
-    <!-- Icones: https://fontawesome.com/start -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/paginaPrincipal/style.css">
 </head>
 
 <body>
     <!-- Cabeçalho da pagina -->
     <header class="cabecalho">
         <div class="logo">
-            <img src="../assets/images/Logo ACAPRA 1.svg" alt="Logo ACAPRA">
+            <a href="../pages/paginaPrincipal.html">
+                <img src="../assets/images/Logo ACAPRA 1.svg" alt="Logo ACAPRA">
+            </a>
         </div>
         <nav class="menu">
             <ul>
@@ -42,7 +37,7 @@
     <!-- Corpo da pagina -->
     <main>
         <!-- Acesso a perguntas frequentes -->
-        <p>Perguntas frequentes</p>
+        <!-- <p>Perguntas frequentes</p> -->
 
         <!-- acesso a Quem somos -->
         <section class="section quem-somos">
@@ -66,17 +61,18 @@
 
         <!-- acesso a Informações sobre animais -->
         <section class="section informacoes">
+            <!-- Adicionar numeros trazidos do banco de dados -->
             <article>
-                <p>0</p>
-                <p>animais ja encontraram um novo</p>
+                <p class="numero-informacao">0</p>
+                <p>Animais ja encontraram um novo lar</p>
             </article>
             <article>
-                <p>0</p>
+                <p class="numero-informacao">0</p>
                 <p>Ainda precisam de um lar</p>
             </article>
             <article>
-                <p>0</p>
-                <p>Se encontram sem cuidados </p>
+                <p class="numero-informacao">0</p>
+                <p>Se encontram sem cuidados</p>
             </article>
         </section>
 
@@ -87,20 +83,33 @@
         </section>
 
         <!-- acesso a Ultimas noticias -->
-        <section class="section noticias">
+        <section class="section noticias" id="ultimas-noticias">
             <h2>Ultimas Noticias</h2>
-            <article>
-                <p>Noticia 1</p>
-            </article>
-            <article>
-                <p>Noticia 2</p>
-            </article>
-            <article>
-                <p>Noticia 3</p>
-            </article>
-            <article>
-                <p>Noticia 4</p>
-            </article>
+            <div class="cards-noticias">
+                <div class="card">
+                    <article>
+                        <h3>Notícia recente!</h3>
+                        <img id="img-oliver" src="../assets/images/cachorros/foto-oliver.png" alt="foto-oliver">
+                        <p> Cachorro Oliver é resgatado após maus-tratos de
+                            seu antigo dono.</p>
+                    </article>
+                </div>
+                <div class="card">
+                    <article>
+                        <p>Noticia 2</p>
+                    </article>
+                </div>
+                <div class="card">
+                    <article>
+                        <p>Noticia 3</p>
+                    </article>
+                </div>
+                <div class="card">
+                    <article>
+                        <p>Noticia 4</p>
+                    </article>
+                </div>
+            </div>
         </section>
         <!-- acesso a entre em contato -->
         <section class="contato">
@@ -146,7 +155,7 @@
                 <h3>Saiba Sobre</h3>
                 <div class="sobre">
                     <a href="">Maus-tratos</a>
-                    <a href="">Denuncias</a>
+                    <a href="">Denúncias</a>
                 </div>
             </article>
 

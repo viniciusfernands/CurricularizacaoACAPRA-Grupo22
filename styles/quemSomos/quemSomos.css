@@ -1,0 +1,37 @@
+h1 {
+  font-size: 70px;
+}
+
+.texto-container p {
+  font-size: 30px;
+  text-align: center;
+  padding-right: 25%;
+  padding-left: 25%;
+  padding-bottom: 5%;
+}
+
+.voltar {
+  top: 160px;
+  text-decoration: none;
+  border: none;
+  border-radius: 0px 8px 8px 0px;
+  background-color: #78A8C8;
+  color: #FDF7EB;
+  padding: 0.2em 1.8em;
+  font-weight: bold;
+  font-size: 1.2em;
+  position: fixed;
+  z-index: 9999;
+  transition: background-color 0.5s ease;
+}
+
+.voltar:hover {
+  background-color: #FDF7EB;
+  color: #78A8C8;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  padding-top: 140px;
+  text-align: center;
+}
