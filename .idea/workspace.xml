@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa6109f2-3227-4502-be13-1f68da9df1cb" name="Changes" comment="">
+    <list default="true" id="fa6109f2-3227-4502-be13-1f68da9df1cb" name="Changes" comment="Altera identação para melhor visualização.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/paginaPrincipal.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/paginaPrincipal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/paginaPrincipal/ultimasNoticias.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/paginaPrincipal/ultimasNoticias.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +112,7 @@
       <workItem from="1756336000279" duration="2756000" />
       <workItem from="1756417240874" duration="2081000" />
       <workItem from="1756420717059" duration="3259000" />
-      <workItem from="1756505076909" duration="363000" />
+      <workItem from="1756505076909" duration="3722000" />
     </task>
     <task id="LOCAL-00001" summary="Refatora parte dos arquivos css para melhor vizualização e organização do código.">
       <option name="closed" value="true" />
@@ -136,7 +138,23 @@
       <option name="project" value="LOCAL" />
       <updated>1756334564946</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Retira ambiguidade de class section dentro da tag section.">
+      <option name="closed" value="true" />
+      <created>1756505757771</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1756505757771</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Altera identação para melhor visualização.">
+      <option name="closed" value="true" />
+      <created>1756507003760</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1756507003760</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +164,8 @@
     <MESSAGE value="Refatora parte dos arquivos css para melhor vizualização e organização do código." />
     <MESSAGE value="Adequa todos os css das paginas." />
     <MESSAGE value="renomeia para adequar ao restante do projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="renomeia para adequar ao restante do projeto" />
+    <MESSAGE value="Retira ambiguidade de class section dentro da tag section." />
+    <MESSAGE value="Altera identação para melhor visualização." />
+    <option name="LAST_COMMIT_MESSAGE" value="Altera identação para melhor visualização." />
   </component>
 </project>
