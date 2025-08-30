@@ -119,9 +119,18 @@
             <form class="contato-form">
                 <p class="interesse">Estou interessado em ...</p>
                 <div class="botoes-interesse">
-                    <button type="button" class="ativo">Doação</button>
-                    <button type="button">Lar Temporario</button>
-                    <button type="button">Outros Serviços</button>
+                    <div>
+                        <input type="radio" name="interesse" id="doacao" checked>
+                        <label for="doacao">Doação</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="interesse" id="lar">
+                        <label for="lar">Lar Temporario</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="interesse" id="outros">
+                        <label for="outros">Outros Serviços</label>
+                    </div>
                 </div>
                 <label for="nome">Seu nome</label>
                 <input type="text" id="nome" name="nome">
