@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa6109f2-3227-4502-be13-1f68da9df1cb" name="Changes" comment="Altera identação para melhor visualização.">
+    <list default="true" id="fa6109f2-3227-4502-be13-1f68da9df1cb" name="Changes" comment="Padroniza barra de navegação de todas as paginas.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/paginaPrincipal.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/paginaPrincipal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/paginaPrincipal/ultimasNoticias.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/paginaPrincipal/ultimasNoticias.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +110,7 @@
       <workItem from="1756336000279" duration="2756000" />
       <workItem from="1756417240874" duration="2081000" />
       <workItem from="1756420717059" duration="3259000" />
-      <workItem from="1756505076909" duration="3722000" />
+      <workItem from="1756505076909" duration="5453000" />
     </task>
     <task id="LOCAL-00001" summary="Refatora parte dos arquivos css para melhor vizualização e organização do código.">
       <option name="closed" value="true" />
@@ -154,7 +152,23 @@
       <option name="project" value="LOCAL" />
       <updated>1756507003760</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Ajusta css para melhor alocação na pagina">
+      <option name="closed" value="true" />
+      <created>1756508865792</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1756508865792</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Padroniza barra de navegação de todas as paginas.">
+      <option name="closed" value="true" />
+      <created>1756510255939</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1756510255939</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +180,8 @@
     <MESSAGE value="renomeia para adequar ao restante do projeto" />
     <MESSAGE value="Retira ambiguidade de class section dentro da tag section." />
     <MESSAGE value="Altera identação para melhor visualização." />
-    <option name="LAST_COMMIT_MESSAGE" value="Altera identação para melhor visualização." />
+    <MESSAGE value="Ajusta css para melhor alocação na pagina" />
+    <MESSAGE value="Padroniza barra de navegação de todas as paginas." />
+    <option name="LAST_COMMIT_MESSAGE" value="Padroniza barra de navegação de todas as paginas." />
   </component>
 </project>
