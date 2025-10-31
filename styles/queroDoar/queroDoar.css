@@ -1,6 +1,6 @@
 main {
-    min-height: 57.3vh;
-    padding-top: 20vh;
+    min-height: 100vh;
+    padding-top: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,11 +13,11 @@ main a {
 }
 
 .tituloajuda {
-    font-size: 60px;
+    font-size: 4rem;
 }
 
 .textoajuda {
-    font-size: 25px;
+    font-size: 1.6rem;
     display: flex;
     flex-direction: column;
     align-items: center;
