@@ -6,8 +6,6 @@ Este repositório contém o projeto de desenvolvimento do site institucional par
 
 O projeto "Página Institucional - ACAPRA" visa construir uma aplicação web que possibilite o conhecimento sobre a instituição ACAPRA e promova a conscientização sobre a adoção consciente e os cuidados com os animais.
 
-A página deve ser projetada para ser uma ferramenta valiosa de divulgação, em que ofereça no mínimo informações sobre os tópicos detalhados abaixo.
-
 ## 👥 Grupo 22
 
 **Integrantes:**
@@ -20,7 +18,7 @@ A página deve ser projetada para ser uma ferramenta valiosa de divulgação, em
 
 ## 🎓 Contexto Acadêmico
 
-Este projeto foi desenvolvido para a disciplina de Curricularização de Extensão, com o objetivo de registrar e organizar as contribuições do grupo durante as atividades propostas.
+Este repositório foi criado para a Curricularização de Extensão 2025, com o objetivo de registrar e organizar as contribuições do grupo durante as atividades propostas.
 
 O progresso foi realizado ao longo de 4 semanas:
 
@@ -48,8 +46,6 @@ A aplicação web foi planejada para conter as seguintes seções:
 Para garantir a qualidade do projeto, seguimos as seguintes diretrizes:
 
 * Utilizar imagens e vídeos de alta qualidade e que sejam relevantes para o trabalho.
-* Criar uma seção "Perguntas Frequentes" (FAQ) com respostas sobre questões comuns.
-* Garantir um design responsivo, legível para diferentes dispositivos (desktop, tablet e mobile).
 * Usar uma linguagem acessível e clara.
 
 ## 👨‍👩‍👧‍👦 Público-Alvo
@@ -76,3 +72,4 @@ O projeto foi dividido de acordo com as semanas de extensão:
 * **Semana 4 (Finalização e Lançamento):**
     * Ajustes finais na aplicação.
     * Publicação do site no GitHub Pages.
+
