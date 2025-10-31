@@ -29,31 +29,40 @@ main section {
 }
 
 .imagem{
-    width: 400px;
+    width: 30rem;
+}
+
+.container-quem-somos {
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container-quem-somos h2 {
-    font-size: 3em;
-    padding: 0.2em;
+    font-size: 4em;
 }
 
 .container-quem-somos p {
-    font-size: 1.5em;
-    padding: 2em 0.5em;
+    font-size: 1.8em;
+    padding: 2.5em 5em;
 }
 
-.container-quem-somos button {
-    display: inline-block;
-    padding: 0.75em 1.5em;
+.container-quem-somos a {
+    text-decoration: none;
+    border: none;
+    border-radius: 25px;
     background-color: #78A8C8;
     color: #FDF7EB;
-    border-radius: 20px;
-    border: none;
-    text-decoration: none;
+    padding: 0.2em 1.8em;
     font-weight: bold;
-    transition: background-color 0.3s;
+    font-size: 1.8em;
+    transition: background-color 0.5s ease;
+    font-family: "Just Me Again Down Here", "Caveat", cursive;
 }
 
-.container-quem-somos button:hover {
-    background-color: #3c8ec4;
+.container-quem-somos a:hover {
+    background-color: #FDF7EB;
+    color: #78A8C8;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
 }

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Inicial - ACAPRA</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/paginaPrincipal/style.css">
+</head>
+
+<body>
+    <!-- Cabeçalho da pagina -->
+    <header class="cabecalho">
+        <div class="logo">
+            <a href="index.html">
+                <img src="../assets/images/Logo ACAPRA 1.svg" alt="Logo ACAPRA">
+            </a>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="../pages/quemSomos.html">Quem somos</a></li>
+                <li><a href="../pages/queroAdotar.html">Quero Adotar</a></li>
+                <li><a href="../pages/queroDoar.html">Quero Doar</a></li>
+                <li><a href="index.html#ultimas-noticias">Notícias</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Corpo da pagina -->
+    <main>
+        <!-- Acesso a Quem somos -->
+        <section class="section quem-somos">
+            <article>
+                <div>
+                    <img src="../assets/images/Group 9 (1).svg" alt="" class="imagem">
+                </div>
+                <div class="container-quem-somos">
+                    <h2>Quem somos?</h2>
+                    <p>A Associação Brusquense de Proteção aos Animais (Acapra) é uma Organização Não Governamental
+                        (ONG)
+                        que
+                        atua em Brusque, Santa Catarina, desde março de 1999. Nossa missão é gerenciar humanitariamente
+                        os
+                        animais de rua, especialmente aqueles em situações graves, como doenças ou ferimentos.</p>
+                    <a href="pages/quemSomos.html">Conheça mais sobre nossa história</a>
+                </div>
+
+            </article>
+        </section>
+
+        <!-- acesso a Informações sobre animais -->
+        <section class="informacoes">
+            <!-- Adicionar numeros trazidos do banco de dados -->
+            <article>
+                <p class="numero-informacao">0</p>
+                <p>Animais ja encontraram um novo lar</p>
+            </article>
+            <article>
+                <p class="numero-informacao">0</p>
+                <p>Ainda precisam de um lar</p>
+            </article>
+            <article>
+                <p class="numero-informacao">0</p>
+                <p>Se encontram sem cuidados</p>
+            </article>
+        </section>
+
+        <!-- acesso a nossos novos amigos -->
+        <section class="novos-amigos">
+            <h2>Nossos novos amigos</h2>
+            <div class="slideshow-cointainer">
+                <button>❮</button>
+                <div class="carrossel">
+                    <div class="imagem-1"><img src="../assets/images/catos/foto-bartô.jpeg" alt="imagem 1"></div>
+                    <div class="imagem-2"><img src="../assets/images/cachorros/foto-branca.jpeg" alt="imagem 2"></div>
+                    <div class="imagem-3"><img src="../assets/images/cachorros/foto-cleo.jpeg" alt="imagem 3"></div>
+                    <div class="imagem-4"><img src="../assets/images/catos/foto-difusor.jpeg" alt="imagem 4"></div>
+                    <div class="imagem-5"><img src="../assets/images/cachorros/foto-gloria.jpeg" alt="imagem 5"></div>
+                </div>
+                <button>❯</button>
+            </div>
+            <form action="pages/queroAdotar.html">
+                <button>Adote!</button>
+            </form>
+        </section>
+
+        <!-- acesso a Ultimas noticias -->
+        <section class="noticias" id="ultimas-noticias">
+            <h2>Ultimas Noticias</h2>
+            <div class="cards-noticias">
+                <div class="card">
+                    <img id="img-oliver" src="../assets/images/cachorros/foto-oliver.png" alt="foto-oliver">
+                    <div>
+                        <h3>Notícia recente!</h3>
+                        <p> Cachorro Oliver é resgatado após maus-tratos de
+                            seu antigo dono.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img id="img-steffen" src="../assets/images/cachorros/foto-noticia.png" alt="Cachorra Steffen">
+                    <div>
+                        <h3>Essa semana!</h3>
+                        <p>Cachorra é encontrada enrolada em cipos no Steffen.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img id="img-noticia" src="../assets/images/foto-noticia-doacao.png" alt="doação">
+                    <div>
+                        <p>Anunciamos a arrecadação de R$ 1.780,75 através dos nossos cofres espalhados pela cidade.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- acesso a entre em contato -->
+        <section class="contato">
+            <div class="contato-container">
+                <div class="contato-info">
+                    <h2>Entre em <span>contato</span><br>conosco</h2>
+                    <div class="contato-redes">
+                        <p><i class="fa-solid fa-envelope"></i> acaprabrusque@gmail.com</p>
+                        <a href="https://www.instagram.com/acaprabrusquesc/" target="_blank">
+                            <i class="fa-brands fa-square-instagram"></i> Instagram
+                        </a>
+                    </div>
+                </div>
+                <form class="contato-form">
+                    <p class="interesse">Estou interessado em ...</p>
+                    <div class="botoes-interesse">
+                        <div>
+                            <input type="radio" name="interesse" id="doacao" checked>
+                            <label for="doacao">Doação</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="interesse" id="lar">
+                            <label for="lar">Lar Temporario</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="interesse" id="outros">
+                            <label for="outros">Outros Serviços</label>
+                        </div>
+                    </div>
+                    <label for="nome">Seu nome</label>
+                    <input type="text" id="nome" name="nome">
+                    <label for="email">Seu Email</label>
+                    <input type="email" id="email" name="email">
+                    <label for="mensagem">Deixe seu comentário</label>
+                    <textarea id="mensagem" name="mensagem"></textarea>
+                    <button type="submit" class="botao-enviar"><i class="fa-regular fa-paper-plane"></i> Envie sua
+                        mensagem
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé da pagina -->
+    <footer class="rodape">
+        <section class="rodape-container">
+            <!-- Saiba Sobre -->
+            <article class="rodape-article">
+                <h3>Saiba Sobre</h3>
+                <div class="sobre">
+                    <a href="">Maus-tratos</a>
+                    <a href="">Denúncias</a>
+                </div>
+            </article>
+
+            <!-- Contatos -->
+            <article class="rodape-article">
+                <h3>Contatos</h3>
+                <p><i class="fa-solid fa-envelope"></i>acaprabrusque@gmail.com</p>
+            </article>
+
+            <!-- Redes Sociais -->
+            <article class="rodape-article">
+                <h3>Redes Sociais</h3>
+                <div class="redes-icones">
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/acaprabrusquesc/" target="_blank">
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </a>
+                </div>
+            </article>
+        </section>
+    </footer>
+</body>
+
+</html>

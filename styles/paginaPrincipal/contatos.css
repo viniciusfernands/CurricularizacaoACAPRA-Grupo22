@@ -19,6 +19,7 @@
 .contato-info {
     flex: 1;
     min-width: 280px;
+    padding: 2rem;
 }
 
 .contato-info h2 {
@@ -30,18 +31,38 @@
     color: #83c1e9;
 }
 
-.contato-info p {
-    margin: 1rem 0;
-    font-size: 1.2rem;
+.contato-redes {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 3rem;;
 }
 
-.contato-redes {
-    margin-top: 15rem;
+.contato-redes p {
+    margin: 1rem 0;
+    font-size: 2rem;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contato-redes p i {
+    margin-right: 1rem;
 }
 
 .contato-redes a {
     color: white;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.contato-redes a:hover {
+    font-size: 2.1rem;
+}
+
+.contato-redes a i {
     margin-right: 1rem;
 }
 
@@ -61,6 +82,7 @@
 
 .botoes-interesse {
     display: flex;
+    justify-content: center;
     gap: 0.5rem;
     margin-bottom: 1rem;
 }
@@ -103,6 +125,13 @@
     font-size: 1rem;
     font-family: inherit;
     resize: none;
+    caret-color: #9f4bff;
+}
+
+.contato-form input:focus,
+.contato-form textarea:focus {
+    outline: none;
+    border-color: #823ad4;
 }
 
 .botao-enviar {
